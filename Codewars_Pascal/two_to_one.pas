@@ -10,16 +10,16 @@
 // longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
 
 
-function Longest(s1, s2: String): String;
+function Longest(s1, s2: String):String;
 type
     Letters = 'a'..'z';
 var
-    s3: string = '';
-    c: Letters;
+    s3:string = '';
+    c:Letters;
 begin
     for c:= 'a' to 'z' do
     if (pos(c, s1) > 0) or (pos(c, s2) > 0) then
-        s3:= s3 + c;
+        s3 := s3 + c;
     Longest := s3
 end;
 
