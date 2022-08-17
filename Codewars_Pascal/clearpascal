@@ -1,0 +1,4 @@
+#! /bin/bash
+rm *.o
+clear
+echo "###### Clear Terminal ######"
