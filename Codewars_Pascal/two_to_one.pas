@@ -1,3 +1,15 @@
+// Возьмите 2 строки s1 и s2, содержащие только буквы от a до z. 
+// Возвращает новую отсортированную строку, максимальной длинны, 
+// содержащую различные буквы (каждая из которых взята только один раз) из s1 или s2. 
+// Примеры:
+// a = "xyaabbbccccdefww"
+// b = "xxxxyyyyabklmopq"
+// longest(a, b) -> "abcdefklmopqwxy"
+
+// a = "abcdefghijklmnopqrstuvwxyz"
+// longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
+
+
 function Longest(s1, s2: String): String;
 type
     Letters = 'a'..'z';
