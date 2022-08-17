@@ -1,4 +1,4 @@
 *.o
 *.out
 *.DS_Store
-Codewars_Pascal/**/./clearpascal
+Codewars_Pascal/**/clearpascal
