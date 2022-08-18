@@ -24,9 +24,13 @@ begin
 end;
 
 begin
-    writeln('Before sorting: str1 = aretheyhere str2 = yestheyarehere');
-    writeln('After sorting = ', Longest('aretheyhere', 'yestheyarehere')); // output --> aehrsty
+    writeln('Before sorting: str1 = aretheyhere'); 
+    writeln('                str2 = yestheyarehere');
+    writeln('After sorting = ', Longest('aretheyhere', 
+    'yestheyarehere')); // output --> aehrsty
     writeln;
-    writeln('Before sorting: str1 = loopingisfunbutdangerous str2 = lessdangerousthancoding');
-    writeln('After sorting = ', Longest('loopingisfunbutdangerous', 'lessdangerousthancoding')); // output --> abcdefghilnoprstu
+    writeln('Before sorting: str1 = loopingisfunbutdangerous');
+    writeln('                str2 = lessdangerousthancoding');
+    writeln('After sorting = ', Longest('loopingisfunbutdangerous', 
+    'lessdangerousthancoding')); // output --> abcdefghilnoprstu
 end.
