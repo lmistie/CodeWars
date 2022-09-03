@@ -11,10 +11,10 @@ begin
         Res := Res + UpCase(s[i]);
         for j := 1 to i - 1 do
           Res := Res + LowerCase(s[i]);
-      Res := Res + '-';
-    end;
+        Res := Res + '-';
+      end;
     delete(Res,length(Res),1);
-  Accum := Res;
+    Accum := Res;
 end;
 
 begin
