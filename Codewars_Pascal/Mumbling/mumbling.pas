@@ -1,7 +1,7 @@
-function Accum(s:string):string;
+function Accum(s: string): string;
 var
     i, j: int64;
-    Res, Result: string;
+    Res: string;
     
 begin
     i := 1;
@@ -10,11 +10,11 @@ begin
       begin
         Res := Res + UpCase(s[i]);
         for j := 1 to i - 1 do
-          Res := Res + lowercase(s[i]);
+          Res := Res + LowerCase(s[i]);
       Res := Res + '-';
     end;
     delete(Res,length(Res),1);
-  Result := Res;
+  Accum := Res;
 end;
 
 begin
