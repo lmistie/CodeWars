@@ -1,10 +1,9 @@
-function Accum (s: string): string;
+function Accum(s:string):string;
 var
     i, j: int64;
     Res, Result: string;
     
 begin
-    Result := '';
     i := 1;
     Res := '';
     for i := 1 to length(s) do
