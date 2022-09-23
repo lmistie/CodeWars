@@ -7,17 +7,20 @@ int val;
 Node *left, *right = NULL;
 };
 
-bool search(int n, Node *root){
-
-if (!root) {
-return false;
-}
-else{
-if (root->val == n) {
-return true;
-}
-}
-return (search(n, root->right) || search(n, root->left));
+bool search(int n, Node *root) 
+{
+    if (!root)
+    {
+        return false;
+    }
+        else 
+        {
+            if (root->val == n) 
+            {
+                return true;
+            }
+        }
+    return (search(n, root->right) || search(n, root->left));
 }
 
 int main () {
