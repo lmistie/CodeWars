@@ -20,4 +20,8 @@ int main()
 {
     char *str = "Hello World!";
     printf("%s\n", no_space(str));
+    char *str1 = "Привет мир!";
+    printf("%s\n", no_space(str1));
+    char *str2 = "Text not space!";
+    printf("%s\n", no_space(str2));
 }
